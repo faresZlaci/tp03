@@ -10,8 +10,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 
-const url = 'mongodb://uyqxyomb0vf8mmyizov1:iI3y36UAjHQpBWcoyx3@bohccp5zqlxuskaluuya-mongodb.services.clever-cloud.com:2946/bohccp5zqlxuskaluuya';
-const dbName = 'bohccp5zqlxuskaluuya';
+const url = 'mongodb://uvrqiwahjpcsextetpun:uWqPP5rOJWNeFuAPaq07@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/b4x4mcqkjdboq4o?replicaSet=rs0';
+const dbName = 'b4x4mcqkjdboq4o';
 
 app.get('/', (req, res) => {
     res.render('index'); // Render the index.ejs file
